@@ -32,7 +32,7 @@ Result deletePrevious(u64 titleid, FS_MediaType media) {
 
     for (u32 i = 0; i < read_titles; i++) {
         if (titleIDs[i] == titleid) {
-            ret = AM_DeleteAppTitle(media, titleid);
+            ret = AM_DeleteTitle(media, titleid);
             break;
         }
     }

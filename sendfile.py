@@ -39,5 +39,5 @@ if __name__ == '__main__':
         printf("Disconnected")
 
     except Exception as e:
-        printf("/!\ An error occured. /!\ ")
+        printf("/!\\ An error occured. /!\\ ")
         print(e)

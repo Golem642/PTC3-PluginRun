@@ -17,9 +17,11 @@ This GitHub repository contains the source code for the launcher of the [SmileBA
 
 You need the following items:
 
+- (If you don't have them already) git, make, python, xxd (can be found in the vim package)
 - [bannertool (modified fork)](https://github.com/CyberYoshi64/bannertool)
 - [makerom](https://github.com/3DSGuy/Project_CTR)
-- devkitPro with all 3DS-based packages installed
+- devkitPro with all 3DS-based packages installed (at minima, install the 3ds-dev group + 3ds-libpng + 3ds-curl)
+- [libcwav](https://github.com/PabloMK7/libcwav)
 - [A slightly modified version of Citro2D that addresses this issue](https://github.com/devkitPro/citro2d/issues/46) (not entirely needed but recommended)
 
 

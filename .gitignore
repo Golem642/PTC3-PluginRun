@@ -13,9 +13,11 @@
 *.log
 *.t3s.png
 build/
-romfs/gfx/
+romfs/gfx/*
 output/
 
 # Manual
 nw4c-textureConverter.py
 resources/manual/**/*.tga
+
+!.gitkeep
